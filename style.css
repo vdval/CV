@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+.PhotoCandidat {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 2em;
+}
+
+.tete {
+    display: inline-block;
+    margin: 1em;
+    vertical-align: top;
+    font-family: 'Permanent Marker', cursive; sans-serif;
+    font-size: xx-large;
+    color: grey;
+    padding: 1 em;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive; sans-serif;
+    color: grey;
+}
+
+main {
+    font: 'Lato'; sans-serif;
+    margin: 2em;
+    font-size: 1em;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: grey;
+}
+
+header {
+    text-align: left;
+    background-color: whitesmoke;
+    border: solid 1px black;
+}
+
+article {
+    display: inline-block;
+    width: 70%;
+    border-right: solid 1px lightgrey;
+    height: 100%;
+    text-align: justify;
+    padding: 1em;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: justify;
+    padding: 1em;
+}
+
+nav {
+    background-color: whitesmoke;
+}
+
+.nav-link {
+    text-decoration: underline;
+    color: black;
+}
+
+footer {
+    font-family: 'Permanent Marker', cursive; sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    color: grey;
+    padding: 1em;
+    height: auto;
+}
+
+@media screen and (max-width: 594px) {
+
+header {
+    display: block;
+    text-align: center;
+}
+
+main {
+    margin-left: 0;
+}
+
+article {
+    display: block;
+    width: 100%;
+    border-right: solid 1px lightgrey;
+    height: 100%;
+    text-align: justify;
+    padding: 1em;
+}
+
+aside {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    text-align: justify;
+    padding: 1em;
+}
+
+}
+@media screen and (max-width: 1316px) {
+
+    header {
+        
+        overflow: hidden;
+    }
+    
+    article {
+        display: block;
+        width: 100%;
+        border-right: solid 1px lightgrey;
+        height: 100%;
+        text-align: justify;
+        padding: 1em;
+    }
+    
+    aside {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        text-align: justify;
+        padding: 1em;
+    }
+    
+    }
